@@ -1,0 +1,149 @@
+
+Dataset.file_meta -------------------------------
+(0002, 0000) File Meta Information Group Length  UL: 188
+(0002, 0001) File Meta Information Version       OB: b'\x00\x01'
+(0002, 0002) Media Storage SOP Class UID         UI: MR Image Storage
+(0002, 0003) Media Storage SOP Instance UID      UI: 1.3.12.2.1107.5.2.30.25641.30010005113009191059300000189
+(0002, 0010) Transfer Syntax UID                 UI: Explicit VR Little Endian
+(0002, 0012) Implementation Class UID            UI: 1.3.12.2.1107.5.2
+(0002, 0013) Implementation Version Name         SH: 'MR_2004V_VB11A'
+-------------------------------------------------
+(0008, 0005) Specific Character Set              CS: 'ISO_IR 100'
+(0008, 0008) Image Type                          CS: ['DERIVED', 'SECONDARY', 'MPR', 'CSA MPR', '', 'CSAPARALLEL', 'M', 'ND', 'NORM']
+(0008, 0016) SOP Class UID                       UI: MR Image Storage
+(0008, 0018) SOP Instance UID                    UI: 1.3.12.2.1107.5.2.30.25641.30010005113009191059300000189
+(0008, 0020) Study Date                          DA: '20051130'
+(0008, 0021) Series Date                         DA: '20051130'
+(0008, 0022) Acquisition Date                    DA: '20051130'
+(0008, 0023) Content Date                        DA: '20051130'
+(0008, 0030) Study Time                          TM: '132645.921000'
+(0008, 0031) Series Time                         TM: '142451.281000'
+(0008, 0032) Acquisition Time                    TM: '141127.937501'
+(0008, 0033) Content Time                        TM: '142451.281000'
+(0008, 0050) Accession Number                    SH: '8000000000330109'
+(0008, 0060) Modality                            CS: 'MR'
+(0008, 0070) Manufacturer                        LO: 'SIEMENS'
+(0008, 0080) Institution Name                    LO: 'AKH - WIEN'
+(0008, 0081) Institution Address                 ST: '18-20Waehringer Guertel, Wien, Wien, 1090, Austria'
+(0008, 0090) Referring Physician's Name          PN: ''
+(0008, 1010) Station Name                        SH: 'MRC25641'
+(0008, 1030) Study Description                   LO: 'abdomen^liver'
+(0008, 103e) Series Description                  LO: 'marked lesion<MPR Collection>'
+(0008, 1070) Operators' Name                     PN: 'meduser'
+(0008, 1090) Manufacturer's Model Name           LO: 'Avanto'
+(0008, 1140)  Referenced Image Sequence   1 item(s) ----
+   (0008, 1150) Referenced SOP Class UID            UI: MR Image Storage
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.12.2.1107.5.2.30.25641.30000005113007072225000001677
+   ---------
+(0008, 2111) Derivation Description              ST: 'MEDCOM RESAMPLED'
+(0010, 0010) Patient's Name                      PN: 'Sssssss^Jsssss'
+(0010, 0020) Patient ID                          LO: '021234567'
+(0010, 0030) Patient's Birth Date                DA: '11111111'
+(0010, 0040) Patient's Sex                       CS: 'M'
+(0010, 1010) Patient's Age                       AS: '058Y'
+(0010, 1020) Patient's Size                      DS: "1.73"
+(0010, 1030) Patient's Weight                    DS: "0.0"
+(0010, 1040) Patient's Address                   LO: 'Nr. 309^^3610^^Weißenkirchen In Der Wachau^A'
+(0010, 21c0) Pregnancy Status                    US: 4
+(0018, 0010) Contrast/Bolus Agent                LO: '11 ml Omniscan'
+(0018, 0015) Body Part Examined                  CS: 'ABDOMEN'
+(0018, 0020) Scanning Sequence                   CS: 'GR'
+(0018, 0021) Sequence Variant                    CS: 'SP'
+(0018, 0022) Scan Options                        CS: ['SAT2', 'FS']
+(0018, 0023) MR Acquisition Type                 CS: '3D'
+(0018, 0024) Sequence Name                       SH: '*fl3d1'
+(0018, 0025) Angio Flag                          CS: 'N'
+(0018, 0050) Slice Thickness                     DS: "4.0"
+(0018, 0080) Repetition Time                     DS: "5.53"
+(0018, 0081) Echo Time                           DS: "2.81"
+(0018, 0083) Number of Averages                  DS: "1.0"
+(0018, 0084) Imaging Frequency                   DS: "63.687936"
+(0018, 0085) Imaged Nucleus                      SH: '1H'
+(0018, 0086) Echo Number(s)                      IS: "0"
+(0018, 0087) Magnetic Field Strength             DS: "1.4939999580383"
+(0018, 0089) Number of Phase Encoding Steps      IS: "134"
+(0018, 0091) Echo Train Length                   IS: "1"
+(0018, 0093) Percent Sampling                    DS: "69.79166667"
+(0018, 0094) Percent Phase Field of View         DS: "75.0"
+(0018, 0095) Pixel Bandwidth                     DS: "250.0"
+(0018, 1000) Device Serial Number                LO: '25641'
+(0018, 1020) Software Versions                   LO: 'syngo MR 2004V 4VB11D'
+(0018, 1030) Protocol Name                       LO: 't1_vibe_fs_tra_bh_dyn'
+(0018, 1041) Contrast/Bolus Volume               DS: "0.0"
+(0018, 1251) Transmit Coil Name                  SH: 'Body'
+(0018, 1310) Acquisition Matrix                  US: [256, 0, 0, 134]
+(0018, 1312) In-plane Phase Encoding Direction   CS: 'COL'
+(0018, 1314) Flip Angle                          DS: "10.0"
+(0018, 1315) Variable Flip Angle Flag            CS: 'N'
+(0018, 1316) SAR                                 DS: "0.10828038305044"
+(0018, 1318) dB/dt                               DS: "0.0"
+(0018, 5100) Patient Position                    CS: 'HFS'
+(0020, 000d) Study Instance UID                  UI: 1.2.124.113532.10.122.1.203.20051130.122937.2950157
+(0020, 000e) Series Instance UID                 UI: 1.3.12.2.1107.5.2.30.25641.30010005113009191059300000190
+(0020, 0010) Study ID                            SH: '8000000000330109'
+(0020, 0011) Series Number                       IS: "18"
+(0020, 0012) Acquisition Number                  IS: "1"
+(0020, 0013) Instance Number                     IS: "1"
+(0020, 0032) Image Position (Patient)            DS: [-159.82565509386, -175.32202350207, 28.426151275635]
+(0020, 0037) Image Orientation (Patient)         DS: [1, 0, 0, 0, 1, 0]
+(0020, 0052) Frame of Reference UID              UI: 1.3.12.2.1107.5.2.30.25641.20051130133557578.0.0.0
+(0020, 1040) Position Reference Indicator        LO: ''
+(0020, 4000) Image Comments                      LT: 'Precision V'
+(0028, 0002) Samples per Pixel                   US: 1
+(0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+(0028, 0010) Rows                                US: 484
+(0028, 0011) Columns                             US: 484
+(0028, 0030) Pixel Spacing                       DS: [0.72314049586777, 0.72314049586777]
+(0028, 0100) Bits Allocated                      US: 16
+(0028, 0101) Bits Stored                         US: 12
+(0028, 0102) High Bit                            US: 11
+(0028, 0103) Pixel Representation                US: 0
+(0028, 1050) Window Center                       DS: [450, 200]
+(0028, 1051) Window Width                        DS: [790, 443]
+(0028, 1055) Window Center & Width Explanation   LO: ['WINDOW1', 'WINDOW2']
+(0029, 0010) Private Creator                     LO: 'SIEMENS MEDCOM HEADER'
+(0029, 0011) Private Creator                     LO: 'SIEMENS MEDCOM OOG'
+(0029, 1031) [PMTF Information 1]                LO: '4.0.12412818'
+(0029, 1032) [PMTF Information 2]                UL: 468512
+(0029, 1033) [PMTF Information 3]                UL: 0
+(0029, 1034) [PMTF Information 4]                CS: 'DB TO DICOM'
+(0029, 1108) [MedCom OOG Type]                   CS: 'MEDCOM OOG 2'
+(0029, 1109) [MedCom OOG Version]                LO: 'VD20M'
+(0029, 1110) [MedCom OOG Info]                   OB: Array of 5342 elements
+(0032, 1033) Requesting Service                  LO: 'A4'
+(0032, 1060) Requested Procedure Description     LO: 'MRT oberes Abdomen'
+(0032, 4000) Study Comments                      LT: 'Precision V'
+(0040, 0275)  Request Attributes Sequence   1 item(s) ----
+   (0040, 0007) Scheduled Procedure Step Descriptio LO: 'MRT oberes Abdomen'
+   (0040, 0009) Scheduled Procedure Step ID         SH: '8000000000330109'
+   (0040, 1001) Requested Procedure ID              SH: '8000000000330109'
+   ---------
+(0088, 0140) Storage Media File-set UID          UI: 1.3.12.2.1107.5.2.30.25641.30000005113013220781200000002
+(0088, 0200)  Icon Image Sequence   1 item(s) ----
+   (0028, 0002) Samples per Pixel                   US: 1
+   (0028, 0004) Photometric Interpretation          CS: 'PALETTE COLOR'
+   (0028, 0010) Rows                                US: 64
+   (0028, 0011) Columns                             US: 64
+   (0028, 0100) Bits Allocated                      US: 8
+   (0028, 0101) Bits Stored                         US: 8
+   (0028, 0102) High Bit                            US: 7
+   (0028, 0103) Pixel Representation                US: 0
+   (0028, 1101) Red Palette Color Lookup Table Desc US: [256, 0, 8]
+   (0028, 1102) Green Palette Color Lookup Table De US: [256, 0, 8]
+   (0028, 1103) Blue Palette Color Lookup Table Des US: [256, 0, 8]
+   (0028, 1201) Red Palette Color Lookup Table Data OW: Array of 256 elements
+   (0028, 1202) Green Palette Color Lookup Table Da OW: Array of 256 elements
+   (0028, 1203) Blue Palette Color Lookup Table Dat OW: Array of 256 elements
+   (7fe0, 0010) Pixel Data                          OW: Array of 4096 elements
+   ---------
+(6000, 0010) Overlay Rows                        US: 484
+(6000, 0011) Overlay Columns                     US: 484
+(6000, 0015) Number of Frames in Overlay         IS: "1"
+(6000, 0022) Overlay Description                 LO: 'Siemens MedCom Object Graphics'
+(6000, 0040) Overlay Type                        CS: 'G'
+(6000, 0050) Overlay Origin                      SS: [1, 1]
+(6000, 0051) Image Frame Origin                  US: 1
+(6000, 0100) Overlay Bits Allocated              US: 1
+(6000, 0102) Overlay Bit Position                US: 0
+(6000, 3000) Overlay Data                        OW: Array of 29282 elements
+(7fe0, 0010) Pixel Data                          OW: Array of 468512 elements
